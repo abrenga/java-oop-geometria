@@ -1,12 +1,13 @@
 package org.lessons.java.geometria;
 
-public class Rettangolo {
-	int base;
-	int altezza;
+public class Rettangolo {//in questo esercizio ho solo modificato la 
+	//visibilità delle variabili in moda da poterci accedere per incapsulamento
+	private int base;
+	private int altezza;
 
-	public Rettangolo(int b, int h) {
-		this.base = b;
-		this.altezza = h;
+	protected Rettangolo(int b, int h) {
+		 this.base = b;
+		 this.altezza = h;
 	}
 
 	public int area() {
