@@ -3,8 +3,9 @@ package org.lessons.java.geometria;
 import java.util.Scanner;
 
 public class InitRettangolo {
-	Scanner lati = new Scanner(System.in);
-	public int chiediBase() {
+	private Scanner lati = new Scanner(System.in);
+	
+	private int chiediBase() {
 		
 		System.out.print("Inserisci la base");
 		int base = lati.nextInt();
@@ -13,7 +14,7 @@ public class InitRettangolo {
 	}
 	
 	
-	public int chiediAltezza() {
+	private int chiediAltezza() {
 		System.out.print("Inserisci l'altezza");
 		int altezza = lati.nextInt();
 		return altezza;
